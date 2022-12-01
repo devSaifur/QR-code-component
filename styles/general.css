@@ -1,0 +1,50 @@
+body {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    background-color: hsl(212, 45%, 89%);
+
+    font-family: 'Fraunces', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Roboto', sans-serif;
+
+    font-size: 15px;
+    margin: 1rem;
+}
+.main-component {
+    display: grid;
+    overflow: hidden;
+    background-color: white;
+    max-width: 375px;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: 1rem;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+}
+img {
+    display: block;
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+h1 {
+    font-family: 'Outfit', sans-serif;
+    color: hsl(218, 44%, 22%);
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-align: center;
+    padding: 0.75rem;
+    line-height: 26px;
+    word-spacing: 8px;
+}
+p {
+    font-family: 'Outfit', sans-serif;
+    color: hsl(220, 15%, 55%);
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    word-spacing: 2px;
+}
